@@ -5709,7 +5709,7 @@ body {
   height: 100%;
   line-height: 18px;
   font-size: 13px;
-  color: #777; }
+  color: #666565; }
   body.content_only {
     background: none;
     min-width: 0px;
@@ -6514,7 +6514,7 @@ table.table_block td {
  /* margin-bottom: 30px;*/
   padding: 9px 17px 7px;
   background: #f2f2f2;
-  min-height: 84px;
+ /* min-height: 84px;*/
   margin: 0 0 9px;
 }
   @media (max-width: 767px) {

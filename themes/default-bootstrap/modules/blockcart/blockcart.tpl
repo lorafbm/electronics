@@ -29,7 +29,7 @@
 	<div class="shopping_cart">
 		<p><a href="{$link->getPageLink($order_process, true)|escape:'html':'UTF-8'}" title="{l s='View my shopping cart' mod='blockcart'}" rel="nofollow">
 			<b>{l s='Cart' mod='blockcart'}</b>
-			<span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>
+			<!--<span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>
 			<span class="ajax_cart_product_txt{if $cart_qties != 1} unvisible{/if}">{l s='Product' mod='blockcart'}</span>
 			<span class="ajax_cart_product_txt_s{if $cart_qties < 2} unvisible{/if}">{l s='Products' mod='blockcart'}</span>
 			<span class="ajax_cart_total{if $cart_qties == 0} unvisible{/if}">
@@ -42,7 +42,7 @@
 						{convertPrice price=$cart->getOrderTotal(true, $blockcart_cart_flag)}
 					{/if}
 				{/if}
-			</span>
+			</span>-->
 			<!--<span class="ajax_cart_no_product{if $cart_qties > 0} unvisible{/if}">{l s='(empty)' mod='blockcart'}</span>-->
 			{if $ajax_allowed && isset($blockcart_top) && !$blockcart_top}
 				<span class="block_cart_expand{if !isset($colapseExpandStatus) || (isset($colapseExpandStatus) && $colapseExpandStatus eq 'expanded')} unvisible{/if}">&nbsp;</span>
@@ -50,6 +50,25 @@
 			{/if}
             </a></p>
 		{if !$PS_CATALOG_MODE}
+<!--my stiles-->
+        <span> {l s='You have' mod='blockcart' }</span>
+        <span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}"><b>{$cart_qties}</b></span>
+        <span class="ajax_cart_product_txt{if $cart_qties != 1} unvisible{/if}">{l s='Product in your shopping cart.' mod='blockcart'}</span>
+        <span class="ajax_cart_product_txt_s{if $cart_qties < 2} unvisible{/if}">{l s='Products in your shopping cart.' mod='blockcart'}</span>
+        <span class="ajax_cart_total{if $cart_qties == 0} unvisible{/if}">
+				{if $cart_qties > 0}
+					{if $priceDisplay == 1}
+						{assign var='blockcart_cart_flag' value='Cart::BOTH_WITHOUT_SHIPPING'|constant}
+						{convertPrice price=$cart->getOrderTotal(false, $blockcart_cart_flag)}
+					{else}
+						{assign var='blockcart_cart_flag' value='Cart::BOTH_WITHOUT_SHIPPING'|constant}
+						{convertPrice price=$cart->getOrderTotal(true, $blockcart_cart_flag)}
+					{/if}
+				{/if}
+			</span>
+
+        <span class="ajax_cart_no_product{if $cart_qties > 0} unvisible{/if}"><span style="color: #000;"><b>{l s='no items' mod='blockcart'}</b></span>{l s=' in your shopping cart.' mod='blockcart'}</span>
+       <!--/my styles-->
 			<div class="cart_block block exclusive">
 				<div class="block_content">
 					<!-- block list of products -->

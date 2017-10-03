@@ -472,7 +472,9 @@
   padding: 9px 17px 7px;
   background: #f2f2f2;
   min-height: 84px;
-  margin: 0 0 9px; }
+  margin: 0 0 9px;
+  font-size: 12px;
+  line-height: 15px;}
 .shopping_cart a {
 color:#fff;
   text-decoration: none;
