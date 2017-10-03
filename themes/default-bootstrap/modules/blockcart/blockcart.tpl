@@ -50,7 +50,7 @@
 			{/if}
             </a></p>
 		{if !$PS_CATALOG_MODE}
-<!--my stiles-->
+<!--my styles-->
         <span> {l s='You have' mod='blockcart' }</span>
         <span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}"><b>{$cart_qties}</b></span>
         <span class="ajax_cart_product_txt{if $cart_qties != 1} unvisible{/if}">{l s='Product in your shopping cart.' mod='blockcart'}</span>
