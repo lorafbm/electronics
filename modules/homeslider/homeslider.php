@@ -67,6 +67,7 @@ class HomeSlider extends Module
 		if (parent::install() &&
 			$this->registerHook('displayHeader') &&
 			$this->registerHook('displayTopColumn') &&
+            $this->registerHook('displayAfterTop') &&/*добав*/
 			$this->registerHook('actionShopDataDuplication')
 		)
 		{
@@ -601,10 +602,19 @@ class HomeSlider extends Module
 		return $this->display(__FILE__, 'header.tpl');
 	}
 
-	public function hookdisplayTop($params)
-	{
-		return $this->hookdisplayTopColumn($params);
-	}
+
+    //public function hookdisplayAfterTop($params)/*top*/
+    public function hookdisplayTop($params)
+    {
+        return $this->hookdisplayTopColumn($params);
+    }
+    public function hookdisplayAfterTop($params)/*top*/
+
+    {
+        return $this->hookdisplayTopColumn($params);
+    }
+
+
 
 	public function hookdisplayTopColumn($params)
 	{

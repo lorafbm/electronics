@@ -139,14 +139,7 @@
 
 
                 </div>
-               <!-- <div class=centerpic>
-                    <img class="img-responsive" src="http://prestashop/img/img1.jpg">
-                    <div class="text-block">
-                        <h2>Apple Mouse</h2>
-                        <p>High-fashion designers’ muse Carmen Kass represents ‘Samsung Diva Collection 2010’.Samsung introduces premium dress-up package for Diva and Diva folder</p>
-                        <a href="#" class="more">Learn more!</a>
-                    </div>
-                </div>-->
+
             </div>
         </header>
     </div>
@@ -170,3 +163,10 @@
                 $left_column_size - $right_column_size)}{else}{assign var='cols' value=12}{/if}
                 <div id="center_column" class="center_column col-xs-12 col-sm-{$cols|intval}">
                     {/if}
+                    <div class=pic>
+                        <img src="/img/banner1.jpg" width="100%" alt="image description" class="img-responsive" />
+                        <div class="text-block">
+                            <h3>The new iPod nano. </h3>
+                            <p>Now rocking a video camera, a polished anodized aluminum finish.</p>
+                        </div>
+                    </div>

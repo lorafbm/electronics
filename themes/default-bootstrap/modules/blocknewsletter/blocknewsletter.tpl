@@ -24,7 +24,7 @@
 *}
 <!-- Block Newsletter module-->
 <div id="newsletter_block_left" class="block">
-	<p>{l s='Newsletter' mod='blocknewsletter'}</p>
+	<p class="news">{l s='Newsletter' mod='blocknewsletter'}</p>
     <p>Sign up for our newsletter:</p>
 	<div class="letter_content">
 		<form action="{$link->getPageLink('index', null, null, null, false, null, true)|escape:'html':'UTF-8'}" method="post">

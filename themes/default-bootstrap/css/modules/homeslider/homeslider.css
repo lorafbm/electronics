@@ -2,9 +2,10 @@
 						Home Page Slider
 *******************************************************************************/
 #homepage-slider {
-    padding-left: 0;
-    padding-right: 0;
+   /* padding-left: 0;
+    padding-right: 0;*/
     margin-bottom: 14px;
+    margin-top: 20px;
     max-width: 100%;
     max-height: 100%;
     overflow: hidden;
