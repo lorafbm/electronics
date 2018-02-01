@@ -1,0 +1,9 @@
+*ERROR* 	2017/10/03 - 15:19:10: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/03 - 15:19:11: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/03 - 15:19:23: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/03 - 15:19:24: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/03 - 15:19:26: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/03 - 15:19:27: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/03 - 15:19:35: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/03 - 15:19:36: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/03 - 15:21:46: Current theme unavailable &quot;electronics&quot;. Please check your theme directory name and permissions. at line 259 in file classes/controller/FrontController.php

@@ -1,0 +1,12 @@
+*ERROR* 	2018/01/29 - 23:16:50: Link to database cannot be established:SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/29 - 23:16:54: Link to database cannot be established:SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/29 - 23:17:49: Link to database cannot be established:SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/29 - 23:17:53: Link to database cannot be established:SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/29 - 23:18:01: Link to database cannot be established:SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2018/01/29 - 23:18:04: Link to database cannot be established:SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ at line 102 in file classes/db/DbPDO.php

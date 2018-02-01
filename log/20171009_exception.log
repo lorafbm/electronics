@@ -1,0 +1,2 @@
+*ERROR* 	2017/10/09 - 13:31:24: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	2017/10/09 - 13:31:25: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'prestashop' at line 102 in file classes/db/DbPDO.php
